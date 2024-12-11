@@ -1,0 +1,63 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  width: 100%;
+  padding-top: 15px;
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.one {
+  width: 100%;
+  height: 5vh;
+  background-color: #dcdcdc;
+}
+.two {
+  width: 100%;
+  height: 30vh;
+  background-color: #dcdcdc;
+}
+.three {
+  width: 96%;
+  height: 55vh;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+}
+.right {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.left {
+  width: 10%;
+  background-color: #dcdcdc;
+}
+.top {
+  height: 70%;
+  background-color: #dcdcdc;
+}
+.bottom {
+  height: 30%;
+  display: flex;
+  gap: 15px;
+}
+.first {
+  width: calc(100% / 2);
+  background-color: #dcdcdc;
+}
+.last {
+  width: calc(100% / 2);
+  background-color: #dcdcdc;
+}
+.four {
+  width: 96%;
+  height: 10vh;
+  margin: 0 auto;
+  background-color: #dcdcdc;
+}
